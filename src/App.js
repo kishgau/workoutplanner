@@ -1,11 +1,16 @@
 import logo from './logo.svg';
-import classes from'./App.css';
-
+import './App.css';
+import Header from './Header'
+import Footer from './Footer';
+import Body from './Body'
+// Should we use class based components or function based compoents?
 function App() {
   return (
-  <div className={card} >
-  Testcard
-  </div>
+    <div className="App">
+      <Header/>
+      <Body />
+      <Footer/>
+    </div>
 
   );
 }

@@ -1,10 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+const Header = () => {
   return (
-    <p>Hello </p>
-  );
+    <header>
+      <h1>Workout Planner</h1>
+    </header>
+
+
+  )
 }
 
-export default App;
+export default Header
