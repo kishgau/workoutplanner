@@ -1,4 +1,4 @@
-{
+const data = {
 	"exercises": [{
 		"id": 0,
 		"name": "Oblique twist",
@@ -496,3 +496,15 @@
 		}]
 	}]
 }
+
+const Workouts = () => {
+  return (
+ <div className="container">
+
+    {data.exercises.map((idx) => (<h3> {idx.name} </h3>) )}
+
+ </div>
+  )
+}
+
+export default Workouts

@@ -30,8 +30,6 @@ const Body = () => {
       <h2>Excercise List</h2>
    </div>
  </div>
-
-
   )
 }
 
